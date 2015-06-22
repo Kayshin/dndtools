@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kayshin's DND Tools", "Kayshin's DND Tools\Kayshin's DND Tools.csproj", "{A887E3A6-7074-410E-BB2E-C06E2B0718E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolCore", "ToolCore\ToolCore.csproj", "{990AE7AE-7AFB-41DD-B32C-EE60F5115D72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{6E893A3A-FF1F-4099-91DA-3B72DB775B78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A887E3A6-7074-410E-BB2E-C06E2B0718E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A887E3A6-7074-410E-BB2E-C06E2B0718E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A887E3A6-7074-410E-BB2E-C06E2B0718E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A887E3A6-7074-410E-BB2E-C06E2B0718E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990AE7AE-7AFB-41DD-B32C-EE60F5115D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990AE7AE-7AFB-41DD-B32C-EE60F5115D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990AE7AE-7AFB-41DD-B32C-EE60F5115D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990AE7AE-7AFB-41DD-B32C-EE60F5115D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E893A3A-FF1F-4099-91DA-3B72DB775B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E893A3A-FF1F-4099-91DA-3B72DB775B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E893A3A-FF1F-4099-91DA-3B72DB775B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E893A3A-FF1F-4099-91DA-3B72DB775B78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace ToolCore
+namespace ToolCore.Extensions
 {
-    public interface ITradeGood : IItem
+    static class ListExtensions
     {
     }
 }

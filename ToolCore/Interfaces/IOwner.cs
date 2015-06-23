@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ToolCore
 {
-    public interface IGear : IItem
+    public interface IPlayer : ICore, ITokenHandler
     {
     }
 }

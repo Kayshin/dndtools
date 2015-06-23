@@ -1,109 +1,92 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ToolCore.Sword">
-    <Position X="7.75" Y="4.75" Width="1.5" />
+  <Class Name="ToolCore.Tile">
+    <Position X="9.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAgAAAAAQgAAAAAAAAAAAkAQAgAAA=</HashCode>
-      <FileName>Classes\Sword.cs</FileName>
+      <HashCode>AAAAAAAACAAAAAAAAAAQAAAAAAAIABAACACAAAAAAAA=</HashCode>
+      <FileName>Classes\Tile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ToolCore.Token">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAABCAAAAAAAABQAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\Token.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ToolCore.Player">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Players.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ToolCore.Core">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\Core.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ToolCore.DungeonMaster" Collapsed="true">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Players.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToolCore.TokenHandler">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAABIAA=</HashCode>
+      <FileName>Classes\TokenHandler.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="ToolCore.ICore">
-    <Position X="4" Y="0.5" Width="1.5" />
+    <Position X="2.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>Interfaces\ICore.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ToolCore.IItem">
-    <Position X="4" Y="1.75" Width="1.5" />
+  <Interface Name="ToolCore.ITile">
+    <Position X="2.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
-      <FileName>Interfaces\IItem.cs</FileName>
+      <HashCode>AAAAAAAACAAAAAAAAAAQAAAAAAAIABAACACAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITile.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ToolCore.IWeapon">
-    <Position X="0.5" Y="3.5" Width="1.5" />
+  <Interface Name="ToolCore.IToken">
+    <Position X="0.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAEAQAgAAA=</HashCode>
-      <FileName>Interfaces\IWeapon.cs</FileName>
+      <HashCode>AAAAAACAAAABCAAAAAAAABQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IToken.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ToolCore.ISword">
-    <Position X="0.5" Y="5.5" Width="1.5" />
+  <Interface Name="ToolCore.IPlayer">
+    <Position X="5.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Interfaces\ISword.cs</FileName>
+      <FileName>Interfaces\IOwner.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ToolCore.IArmor">
-    <Position X="2.25" Y="3.5" Width="1.5" />
+  <Interface Name="ToolCore.ITokenHandler">
+    <Position X="4" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IArmor.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAABIAA=</HashCode>
+      <FileName>Interfaces\ITokenHandler.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ToolCore.IGear">
-    <Position X="4" Y="3.5" Width="1.5" />
+  <Enum Name="ToolCore.TerrainType">
+    <Position X="11.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IGear.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="ToolCore.ITool">
-    <Position X="5.75" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ITool.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="ToolCore.IMount">
-    <Position X="7.5" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IMount.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="ToolCore.ITradeGood">
-    <Position X="9.25" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ITradeGood.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="ToolCore.IConsumable">
-    <Position X="5.75" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IConsumable.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Enum Name="ToolCore.DamageType">
-    <Position X="11.75" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAEAAACEAAAAAAQBCAAAAAMAAIAAACAAAQIAAA=</HashCode>
-      <FileName>Enums\DamageType.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="ToolCore.Attribute">
-    <Position X="13.5" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAAAAAEAAAAAAABBAAAAAAAAACAAAACA=</HashCode>
-      <FileName>Enums\Attribute.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="ToolCore.Dice">
-    <Position X="13.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAAAAAAgAAAAQAAAAAAAIAAAAAAEEAAA=</HashCode>
-      <FileName>Enums\Dice.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="ToolCore.WeaponProperty">
-    <Position X="11.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>WeaponProperty.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAIAAAEAAAA=</HashCode>
+      <FileName>Enums\TerrainType.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Tahoma" Size="8.25" />

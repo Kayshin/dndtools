@@ -11,12 +11,23 @@ namespace TestApplication
     {
         static void Main(string[] args)
         {
-            IWeapon weapon;
-            weapon = new Sword();
-            Console.WriteLine(weapon.Id); 
-            Console.WriteLine(weapon.Name);
-            Console.WriteLine(weapon.Value);
-            Console.WriteLine(weapon.DamageType);
+            ITile tile = new Tile(TerrainType.Normal);
+            tile.Name = "Appel";
+            tile.AddToken(new Token(100));
+            tile.Print();
+            Console.WriteLine();
+            tile.PrintTokens();
+            
+            IPlayer dm = new DungeonMaster();
+            dm.AddToken(new Token(100));
+            dm.AddToken(new Token(100));
+            dm.AddToken(new Token(100));
+            dm.AddToken(new Token(100));
+            dm.AddToken(new Token(100));
+            Console.WriteLine();
+            dm.Print();
+            Console.WriteLine();
+            dm.PrintTokens();
             Console.ReadLine();
         }
     }

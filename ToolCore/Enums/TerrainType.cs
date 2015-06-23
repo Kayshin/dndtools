@@ -5,7 +5,11 @@ using System.Text;
 
 namespace ToolCore
 {
-    public interface IConsumable : IItem
+    public enum TerrainType
     {
+        Null,
+        Normal,
+        Tough,
+        Wall,
     }
 }

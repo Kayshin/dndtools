@@ -3,15 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ToolCore
+namespace ToolCore.Interfaces
 {
     public interface IToken : ICore
     {
-        /// <summary>
-        /// Owner
-        /// </summary>
-        IPlayer Owner { get; set; }
-
         /// <summary>
         /// Initiative
         /// </summary>

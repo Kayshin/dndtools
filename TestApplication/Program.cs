@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ToolCore;
+using ToolCore.Classes.Mapping;
+using ToolCore.Interfaces.Mapping;
 
 namespace TestApplication
 {
@@ -11,23 +12,12 @@ namespace TestApplication
     {
         static void Main(string[] args)
         {
-            ITile tile = new Tile(TerrainType.Normal);
-            tile.Name = "Appel";
-            tile.AddToken(new Token(100));
-            tile.Print();
-            Console.WriteLine();
-            tile.PrintTokens();
-            
-            IPlayer dm = new DungeonMaster();
-            dm.AddToken(new Token(100));
-            dm.AddToken(new Token(100));
-            dm.AddToken(new Token(100));
-            dm.AddToken(new Token(100));
-            dm.AddToken(new Token(100));
-            Console.WriteLine();
-            dm.Print();
-            Console.WriteLine();
-            dm.PrintTokens();
+            //string uri = @"D:\Developing\Workshops en Eigen projecten\Kayshin's DND Tools\ToolCore\Resources\Map\Map1.xml";
+            /*
+            Map map = new Map() { TileDimensions = new Vector2(0, 0), Layer = new List<Layer>() { new Layer() { Tile = new Layer.TileMap() { Row = new List<string>() } } } };
+            XMLManager<Map> mapLoader = new XMLManager<Map>();
+            mapLoader.Save(@"D:\Developing\Workshops en Eigen projecten\Kayshin's DND Tools\ToolCore\Resources\Map\Map2.xml", map);
+            //map = mapLoader.Load(uri);*/
             Console.ReadLine();
         }
     }

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ToolCore.Interfaces;
 
-namespace ToolCore
+namespace ToolCore.Classes
 {
     public class TokenHandler : Core, ITokenHandler
     {
